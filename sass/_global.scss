@@ -1,0 +1,28 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+$darkmode:#15202b;
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    transition: .3s ease all;
+    background-image: linear-gradient(120deg, #ffffff 25%, #ceecf8 100%);
+
+    &.dark{
+        background-color: $darkmode;
+        background-image: none;
+        p,h1,h2,h3,li,a,button{
+            color: white;
+        }
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}

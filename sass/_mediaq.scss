@@ -1,0 +1,173 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+
+    #contact,
+    #projects {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    #profile,
+    .section-container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section,
+    .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section__pic-container {
+        width: 275px !important;
+        height: 500px !important;
+        margin: 0 auto 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-pic {
+        width: 250px !important;
+        height: 380px !important;
+    }
+
+    .about-containers {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-links a {
+        font-size: 1rem;
+        width: 100px !important;
+        margin-left: 0px !important;
+    }
+    .menu-links li{
+    width: 105px;
+    height: 45px;
+    }
+    #hamburger-nav {
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        align-items: flex-start;
+    }
+    .menu {
+        margin-left: 90px !important;
+    }
+.hamburger-icon{
+    margin-top: 10px;
+}
+    #contact,
+    footer {
+        height: 40vh;
+    }
+
+    .about-pic {
+        width: 250px !important;
+        height: 340px !important;
+    }
+
+    #profile {
+        height: 88vh;
+        margin-bottom: 0;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+        flex-wrap: wrap;
+        gap: 1rem !important;
+    }
+
+    .contact-info-container {
+        margin: 0;
+        
+    }
+
+    .contact-info-container p,
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    .experience-sub-title {
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .section__pic-container {
+        width: auto;
+        height: 90vw !important;
+        justify-content: center;
+
+        img {
+            width: 280px;
+            height: 280px;
+            margin-bottom: 70px;
+        }
+    }
+
+    .section__text {
+        margin-bottom: 100px !important;
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .text-container {
+        text-align: justify;
+    }
+}

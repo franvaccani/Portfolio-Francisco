@@ -72,37 +72,49 @@
         width: 100px !important;
         margin-left: 0px !important;
     }
-    .menu-links li{
-    width: 105px;
-    height: 45px;
+
+    .menu-links li {
+        width: 105px;
+        height: 45px;
     }
+
     #hamburger-nav {
         height: 150px;
         margin-top: 20px;
         margin-bottom: 60px;
         align-items: flex-start;
     }
+
     .menu {
         margin-left: 90px !important;
     }
-.hamburger-icon{
-    margin-top: 10px;
-}
+
+    .hamburger-icon {
+        margin-top: 10px;
+    }
+
     #contact,
     footer {
-        height: 40vh;
+        height: 45vh;
     }
 
     .about-pic {
         width: 250px !important;
         height: 340px !important;
+        padding-top: 10px;
     }
 
     #profile {
         height: 88vh;
         margin-bottom: 0;
     }
-
+#npm p,h1{
+    margin-right: 50px;
+}
+#npm img{
+    width:52px;
+    height: 32px;
+}
     article {
         font-size: 1rem;
     }
@@ -121,7 +133,7 @@
 
     .contact-info-container {
         margin: 0;
-        
+
     }
 
     .contact-info-container p,
@@ -154,7 +166,9 @@
             margin-bottom: 70px;
         }
     }
-
+.title{
+    margin: 0px;
+}
     .section__text {
         margin-bottom: 100px !important;
     }
@@ -169,5 +183,19 @@
 
     .text-container {
         text-align: justify;
+    }
+
+    .article-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .article-container-exp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
     }
 }

@@ -115,7 +115,6 @@ a,
 .experience-details-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 .article-container {
@@ -138,7 +137,22 @@ article {
 article .icon {
     cursor: default;
 }
-
+.article-container-exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#npm{
+    p,h1{
+        margin-right: 50px;
+    }
+    
+}
+#npm img{
+    width:52px;
+    height: 32px;
+}
 
 /* CONTACT */
 

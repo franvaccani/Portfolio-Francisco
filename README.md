@@ -9,4 +9,4 @@
 - GIT
 - GITHUB
 
-[![Imagen de un mate ](https://www.pexels.com/es-es/buscar/desarrollo%20web/.jpg "Imagen de un mate ")]
+[![Imagen de un mate ](./assets/foto.jpg "Imagen de un mate ")]

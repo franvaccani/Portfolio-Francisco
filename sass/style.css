@@ -119,6 +119,172 @@ footer p {
   gap: 1rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: grey;
+}
+
+/* TRANSITION */
+a,
+.btn {
+  transition: all 550ms ease;
+}
+
+/* DESKTOP NAV */
+/* SECTIONS */
+/* PROFILE SECTION */
+/* ICONS */
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+/* BUTTONS */
+.btn-color-1:hover,
+.btn-color-1:focus {
+  box-shadow: inset 135px 0px 0px 0px var(--hover);
+  color: white;
+}
+
+.btn-color-2:hover,
+.btn-color-2:focus {
+  box-shadow: inset 135px 0px 0px 0px var(--hover);
+  color: white;
+}
+
+.btn-color-2 {
+  --color: white;
+  --hover: rgba(128, 128, 128, 0.806) ;
+  background-color: white;
+}
+
+.btn-color-1 {
+  --color: white;
+  --hover: rgba(128, 128, 128, 0.806) ;
+  background-color: white;
+}
+
+button {
+  color: var(--color);
+  transition: 0.5ms;
+}
+
+button:hover,
+button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 400;
+  transition: all 400ms elastic;
+  padding: 0.8rem;
+  border-radius: 1.3rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+  color: black;
+}
+body.dark .btn-color-1,
+body.dark .btn-color-2 {
+  color: white;
+  background-color: #15202b;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+body.dark .btn-color-1:hover,
+body.dark .btn-color-2:hover {
+  color: white;
+  background-color: rgba(172, 183, 194, 0.3137254902) !important;
+}
+
+.btn-color-2:hover {
+  color: white;
+}
+
+.btn-color-1:hover {
+  color: white;
+}
+
+.btn-color-2:hover {
+  background: rgba(128, 128, 128, 0.591);
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+/* ABOUT SECTION */
+/* EXPERIENCE SECTION */
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+.article-container-exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#npm p,
+#npm h1 {
+  margin-right: 62px;
+}
+
+#npm img {
+  width: 36px;
+  height: 36px;
+}
+
+/* CONTACT */
 #about {
   position: relative;
 }
@@ -238,144 +404,6 @@ section {
   border-color: rgb(163, 163, 163);
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-p {
-  color: grey;
-}
-
-/* TRANSITION */
-a,
-.btn {
-  transition: all 300ms ease;
-}
-
-/* DESKTOP NAV */
-/* SECTIONS */
-/* PROFILE SECTION */
-/* ICONS */
-.icon {
-  cursor: pointer;
-  height: 2rem;
-}
-
-/* BUTTONS */
-.btn-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.btn {
-  font-weight: 600;
-  transition: all 300ms ease;
-  padding: 1rem;
-  width: 8rem;
-  border-radius: 2rem;
-}
-
-.btn-color-1,
-.btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
-}
-body.dark .btn-color-1,
-body.dark .btn-color-2 {
-  color: white;
-  background-color: #15202b;
-}
-
-.btn-color-1:hover,
-.btn-color-2:hover {
-  cursor: pointer;
-}
-body.dark .btn-color-1:hover,
-body.dark .btn-color-2:hover {
-  color: white;
-  background-color: rgba(172, 183, 194, 0.3137254902) !important;
-}
-
-.btn-color-1,
-.btn-color-2:hover {
-  background: white;
-  color: black;
-}
-
-.btn-color-1:hover {
-  background: rgba(128, 128, 128, 0.591);
-  color: black;
-}
-
-.btn-color-2 {
-  background: none;
-}
-
-.btn-color-2:hover {
-  border: black(255, 255, 255) 0.1rem solid;
-  background: rgba(128, 128, 128, 0.591);
-}
-
-.btn-container {
-  gap: 1rem;
-}
-
-/* ABOUT SECTION */
-/* EXPERIENCE SECTION */
-#experience {
-  position: relative;
-}
-
-.experience-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-}
-
-.experience-details-container {
-  display: flex;
-  justify-content: center;
-}
-
-.article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
-  align-items: center;
-}
-
-article {
-  display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
-}
-
-article .icon {
-  cursor: default;
-}
-
-.article-container-exp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-#npm p, #npm h1 {
-  margin-right: 62px;
-}
-
-#npm img {
-  width: 36px;
-  height: 36px;
-}
-
-/* CONTACT */
 .switch {
   background: #343d5b;
   border-radius: 1000px;

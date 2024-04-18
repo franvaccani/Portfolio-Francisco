@@ -1,7 +1,5 @@
 /* GENERAL */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-/* EXPERIENCE SECTION */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +15,7 @@ body.dark {
   background-image: none;
 }
 body.dark p, body.dark h1, body.dark h2, body.dark h3, body.dark li, body.dark a, body.dark button {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 html {
@@ -117,10 +115,6 @@ footer p {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 p {
@@ -670,6 +664,9 @@ body.dark .logo {
   .section-container {
     height: auto;
   }
+  .section-container p {
+    font-size: 15px;
+  }
   .about-containers {
     margin-top: 0;
   }
@@ -701,13 +698,20 @@ body.dark .logo {
     margin-bottom: 0;
     padding: 0px;
   }
+  .reactjs img {
+    padding-right: 9px;
+  }
+  .figma img {
+    padding-right: 12px !important;
+    padding-left: 2px;
+  }
   #npm img {
     width: 52px;
     height: 32px;
   }
   #sass p,
   h1 {
-    margin-right: 10px;
+    margin-right: 10px !important;
   }
   #npm img {
     width: 52px;
@@ -720,6 +724,10 @@ body.dark .logo {
     height: -moz-fit-content;
     height: fit-content;
     margin-bottom: 2rem;
+  }
+  .contact-info-upper-container {
+    padding-right: 6px;
+    padding-left: 6px;
   }
   .about-containers,
   .contact-info-upper-container,
@@ -783,7 +791,7 @@ body.dark .logo {
     height: 300px;
   }
   .project-img2 {
-    width: 320px;
+    width: 300px;
     height: 230px;
     padding-top: 6px;
   }

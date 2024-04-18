@@ -96,7 +96,10 @@
         height: auto;
     }
     
+    .section-container p{
+        font-size: 15px;
 
+    }
     .about-containers {
         margin-top: 0;
     }
@@ -134,14 +137,20 @@
         margin-bottom: 0;
         padding: 0px;
     }
-
+.reactjs img{
+    padding-right: 9px;
+}
+.figma img{
+    padding-right: 12px !important;
+    padding-left: 2px;
+}
     #npm img {
         width: 52px;
         height: 32px;
     }
     #sass p,
     h1 {
-        margin-right: 10px;
+        margin-right: 10px !important ;
     }
 
     #npm img {
@@ -157,7 +166,10 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-
+.contact-info-upper-container{
+    padding-right: 6px;
+    padding-left: 6px;
+}
     .about-containers,
     .contact-info-upper-container,
     .btn-container {
@@ -169,7 +181,6 @@
         margin: 0;
 
     }
-
     .contact-info-container p,
     .nav-links li a {
         font-size: 1rem;
@@ -233,7 +244,7 @@
     height: 300px;
 }
 .project-img2{
-    width: 320px;
+    width: 300px;
     height: 230px;
     padding-top: 6px;
 }
